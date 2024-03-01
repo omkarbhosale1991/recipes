@@ -1,0 +1,10 @@
+<div class="container">
+    <form [formGroup]="searchForm" class="searchBar" (ngSubmit)="">
+      <p class="font">RecipeLib</p>
+      <input type="text" class="searchBarInput" placeholder="Search for a recipe..." formControlName="searchText"/>
+      <br><br>
+      <div class="searchbutton">
+        <button type="button" class="btn btn-light">Search</button>
+      </div>
+    </form>
+ </div>
